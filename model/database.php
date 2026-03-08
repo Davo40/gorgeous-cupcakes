@@ -1,9 +1,9 @@
 <?php
 	//database connection details
-	$host = 'localhost';
-	$user = 'root';
-	$password = '';
-	$database = 'gorgeous_cupcakes';
+	$host = 'gcupcakesdb.cing00um8t9b.us-east-1.rds.amazonaws.com';
+	$user = 'admin';
+	$password = 'Password123';
+	$database = 'gcupcakesdb';
 
 	//connect to database with a try/catch statement
 	//if the connection is not successful display the error message via database_error.php
@@ -20,4 +20,5 @@
 		include('../view/database_error.php');
 		exit();
 	}
+
 ?>
