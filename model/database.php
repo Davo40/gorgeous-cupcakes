@@ -3,7 +3,7 @@
 	$host = 'gcupcakesdb.cing00um8t9b.us-east-1.rds.amazonaws.com';
 	$user = 'admin';
 	$password = 'Password123';
-	$database = 'gcupcakesdb';
+	$database = 'gorgeous_cupcakes';
 
 	//connect to database with a try/catch statement
 	//if the connection is not successful display the error message via database_error.php
@@ -22,3 +22,4 @@
 	}
 
 ?>
+
